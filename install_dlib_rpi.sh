@@ -35,4 +35,4 @@ sudo sed -i 's/^CONF_SWAPSIZE=.*/CONF_SWAPSIZE=100/' /etc/dphys-swapfile
 sudo dphys-swapfile setup
 sudo dphys-swapfile swapon
 
-echo "✅ Installation terminée. Tu peux vérifier avec : python3 -c 'import dlib; print(dlib.__version__)'"
+echo "Installation terminée. Tu peux vérifier avec : python3 -c 'import dlib; print(dlib.__version__)'"
